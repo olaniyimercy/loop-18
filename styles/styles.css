@@ -23,9 +23,26 @@ body {
     border-radius: 3rem;
     overflow: hidden;
     position: relative;
-
 }
-    
+
+.notch-container {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+.notch {
+    background-color: #000;
+    width: 15rem;
+    height: 2rem;
+    transform: rotate(-30deg);
+    bottom: -4rem;
+    left: 2.5rem;
+    position: absolute;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
 .visa {
     background-color: #5288f4;
     width: 56.2rem;
@@ -37,8 +54,8 @@ body {
 h1 {
     position: absolute;
     transform: rotate(-30deg);
-    bottom: 4.5rem;
-    left: 9rem;
+    bottom: 4rem;
+    left: 8.5rem;
     text-transform: uppercase;
     color: #fff;
 }
