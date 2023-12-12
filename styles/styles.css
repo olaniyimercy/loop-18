@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #f3f4f8;
+    overflow: hidden;
+}
+
+.container {
+    width: 25rem;
+    height: 44rem;
+    border: 12px solid #000;
+    border-radius: 3rem;
+    overflow: hidden;
+    position: relative;
+
+}
+    
+.visa {
+    background-color: #5288f4;
+    width: 56.2rem;
+    height: 18rem;
+    transform: rotate(30deg);
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    transform: rotate(-30deg);
+    bottom: 4.5rem;
+    left: 9rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.card {
+    position: absolute;
+    width: 22rem;
+    transform: rotate(-30deg);
+    top: 14rem;
+    right: 29rem;
+}
+
+
+.wrapper {
+    padding: 2rem;
+}
+
+.wrapper__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.wrapper__content-images {
+    margin-right: -2rem;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    width: 3rem;
+    height: 1.7rem;
+    background-color: #fff;
+    border-radius: 5rem;
+    border: .9px solid #c6c6c6;
+}
+
+.switch:hover {
+    background-color: #5288f4;
+}
+
+.isolate {
+    display: flex;
+    align-items: center;
+    width: 3rem;
+    height: 1.7rem;
+    background-color: #5288f4;
+    border-radius: 5rem;
+    border: .9px solid #c6c6c6;
+}
+
+.isolate:hover {
+    background-color: #fff;
+}
+
+#isolate {
+    background-color: #5288f4;
+}
+
+.toggle {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #fff;
+    border-radius: 5rem;
+    border: .9px solid #c6c6c6;
+}
+
+.toggle:hover {
+    margin-left: 1.5rem;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.left {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #fff;
+    border-radius: 5rem;
+    border: .9px solid #c6c6c6;
+
+}
+
+.left {
+    margin-left: auto;
+}
+
+.left:hover {
+    margin-right: 1.5rem;
+    transition: 1s;
+    cursor: pointer;
+}
